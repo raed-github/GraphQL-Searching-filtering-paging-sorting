@@ -1,0 +1,39 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "graphql-searching-filtering-paging-sorting",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raed-github/GraphQL-Searching-filtering-paging-sorting.git"
+  },
+  "keywords": [
+    "graphql",
+    "searching",
+    "filtering",
+    "paging",
+    "sorting"
+  ],
+  "author": "Raed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raed-github/GraphQL-Searching-filtering-paging-sorting/issues"
+  },
+  "homepage": "https://github.com/raed-github/GraphQL-Searching-filtering-paging-sorting#readme",
+  "dependencies": {
+    "@graphql-tools/merge": "^9.0.0",
+    "@graphql-tools/schema": "^10.0.0",
+    "apollo-server-express": "^3.12.0",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "express-winston": "^4.2.0",
+    "mongoose": "^7.2.3",
+    "nodemon": "^2.0.22",
+    "redis": "^4.6.7",
+    "winston": "^3.9.0"
+  }
+}
